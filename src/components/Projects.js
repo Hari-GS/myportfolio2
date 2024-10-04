@@ -22,7 +22,9 @@ function Projects() {
                 livelinktext: "https://seego-e-com.onrender.com",
                 demoVideoText: "https://www.linkedin.com/posts/dev-hariharan-g_greetings-here-i-have-designed-a-tour-travel-activity-7172231123815612417-z3Vm?utm_source=share&utm_medium=member_desktop",
                 demoVideoLink: "https://www.linkedin.com/posts/dev-hariharan-g_greetings-here-i-have-designed-a-tour-travel-activity-7172231123815612417-z3Vm?utm_source=share&utm_medium=member_desktop",
-                liveLinkLabel : 'Live link :'
+                liveLinkLabel : 'Live link :',
+                demoLabel : 'Demo Video : ',
+                demoClicker : 'Click here'
             },
             {
                 image: websiteimg2,
@@ -38,7 +40,9 @@ function Projects() {
                 livelink: "",
                 livelinktext: "",
                 demoVideoLink: "https://www.linkedin.com/posts/dev-hariharan-g_agriculturalinnovation-finalyearproject-tholan-activity-7218275881427902464-NDih?utm_source=share&utm_medium=member_desktop",
-                demoVideoText: "https://www.linkedin.com/posts/dev-hariharan-g_agriculturalinnovation-finalyearproject-tholan-activity-7218275881427902464-NDih?utm_source=share&utm_medium=member_desktop"
+                demoVideoText: "https://www.linkedin.com/posts/dev-hariharan-g_agriculturalinnovation-finalyearproject-tholan-activity-7218275881427902464-NDih?utm_source=share&utm_medium=member_desktop",
+                demoLabel : 'Demo Video : ',
+                demoClicker : 'Click here'
             },
             {
                 image: websiteimg3,
@@ -46,22 +50,24 @@ function Projects() {
                 line1:'- This portfolio page effectively showcases my projects and provides detailed information about me.',
                 line2: '- Additionally, I ensured seamless navigation and user-friendly interface to optimize the browsing experience.',
                 line3: '- It improving visitor engagement by 30% and reducing bounce rate.',
-                gitlink:"",
-                gitlinksText:" - ",
+                gitlink:"https://github.com/Hari-GS/myportfolio2",
+                gitlinksText:"https://github.com/Hari-GS/myportfolio2",
                 gitlink2: "",
-                gitlinksText2 : " - ",
+                gitlinksText2 : "",
                 techstack: "React js | Tailwind CSS" ,
                 livelink: "",
-                livelinktext: " - ",
-                liveLinkLabel : 'Live link :'
+                livelinktext: "",
+                liveLinkLabel : '',
+                demoLabel : '',
+                demoClicker : ''
             }
         ]
     }
 
     return (
-        <section id='projects' className='flex flex-col md:py-24 py-12 px-5 justify-center bg-primary text-white'>
+        <section id='projects' className='flex flex-col md:py-24 py-12 md:px-5 px-2 justify-center bg-primary text-white'>
             <div className='w-full'>
-                <div className='flex flex-col py-7 md:px-10 px-0'>
+                <div className='flex flex-col py-7 md:px-10 px-2'>
                     <h1 className='text-4xl border-b-4 border-secondary mb-5 w-[140px] font-bold'>Projects</h1>
                     <p>These are some of the major projects I have developed, utilizing a diverse set of technologies</p>
                 </div>
@@ -91,7 +97,7 @@ function Projects() {
                                     <a target='_blank' className='hover:text-amber-200' href={projects.gitlink2}>{projects.gitlinksText2}</a>
                                     <br/>
                                     <br/>
-                                    <p className='font-bold'>Demo Video : <a className='hover:text-amber-200 font-normal' target='_blank'  href={projects.demoVideoLink}>Click Here</a></p>
+                                    <p className='font-bold'>{projects.demoLabel}<a className='hover:text-amber-200 font-normal' target='_blank'  href={projects.demoVideoLink}>{projects.demoClicker}</a></p>
                                     <br/>
                                     <p className='font-bold'>{projects.liveLinkLabel}<a className='hover:text-amber-200 font-normal' target='_blank' href={projects.livelink}>{projects.livelinktext}</a></p>
                                 </div>
