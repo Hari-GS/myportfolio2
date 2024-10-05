@@ -9,7 +9,7 @@ function About() {
     }
 
     return (
-        <section id='about' className='flex flex-col md:flex-row bg-secondary md:px-0 px-6 md:py-20 py-20 justify-center'>
+        <section id='about' className='flex flex-col md:flex-row bg-secondary md:px-0 px-3 md:py-20 py-20 justify-center'>
             <div className='flex justify-center items-center w-full md:w-1/2'>
                 <img className='rounded-xl md:w-3/5 w-4/5' src={AboutImg}/>
             </div>
