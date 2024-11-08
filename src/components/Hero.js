@@ -5,7 +5,7 @@ import { AiOutlineMail, AiOutlineLinkedin, AiOutlineGithub } from "react-icons/a
 function Hero() {
 
     const config={
-        subtitle:'Java | Full Stack | Software Engineer',
+        subtitle:'Founder | Head of Operations of Blue Hutch | Java | Full Stack | Engineer',
         social:{
             email:'mailto:hariharandev02@gmail.com',
             linkedin:'https://www.linkedin.com/in/dev-hariharan-g/',
