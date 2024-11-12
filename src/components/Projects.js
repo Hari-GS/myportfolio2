@@ -1,7 +1,7 @@
 import React from 'react'
 import websiteimg1 from '../assets/tour-website-home-page.jpg'
 import websiteimg2 from '../assets/tholan page.jpg'
-import websiteimg3 from '../assets/Portfolio2-home.png'
+import websiteimg3 from '../assets/BH home page.png'
 import websiteimg4 from '../assets/em games home page.png'
 
 function Projects() {
@@ -63,6 +63,24 @@ function Projects() {
                 demoVideoText: "https://www.linkedin.com/posts/dev-hariharan-g_agriculturalinnovation-finalyearproject-tholan-activity-7218275881427902464-NDih?utm_source=share&utm_medium=member_desktop",
                 demoLabel : 'Demo Video : ',
                 demoClicker : 'Click here'
+            },
+            {
+                image: websiteimg3,
+                title:'My Agency Webpage',
+                line1:'- Designed and developed a responsive and visually engaging webpage for my web development agency, showcasing services, projects, and contact information.',
+                line2: '- Integrated user-friendly navigation and modern UI/UX principles to create an impactful online presence.',
+                line3: '- Built using React.js and Tailwind CSS, ensuring scalability and performance optimization',
+                gitlink:"https://github.com/Hari-GS/blue-hutch-notice",
+                gitlinksText:"https://github.com/Hari-GS/blue-hutch-notice",
+                gitlink2: "",
+                gitlinksText2 : "",
+                techstack: "React js | TailWind CSS",
+                livelink: "",
+                livelinktext: "",
+                demoVideoLink: "",
+                demoVideoText: "",
+                demoLabel : '',
+                demoClicker : ''
             }
         ]
     }
