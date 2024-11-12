@@ -94,7 +94,7 @@ function Projects() {
                 </div>
             </div>
             <div className='w-full'>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-5 md:px-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-0 md:px-10">
   {config.projects.map((projects) => (
     <div className="relative bg-secondary rounded-2xl px-5 py-5 flex flex-col items-center w-full min-h-[600px]">
       <img className="w-[500px]" src={projects.image} />
