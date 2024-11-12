@@ -2,11 +2,31 @@ import React from 'react'
 import websiteimg1 from '../assets/tour-website-home-page.jpg'
 import websiteimg2 from '../assets/tholan page.jpg'
 import websiteimg3 from '../assets/Portfolio2-home.png'
+import websiteimg4 from '../assets/em games home page.png'
 
 function Projects() {
 
     const config={
         projects: [
+            {
+                image: websiteimg4,
+                title:'Embedded Games Web Application',
+                line1: '- Its a Freelance project. I Developed a full-stack web application featuring 10+ embedded games, complete with user authentication, interactive like button, and a comment section that supports over 500 active users. ',
+                line2: '- Designed with dynamic, responsive elements, increasing user engagement by 40%. Integrated a scalable backend to handle up to 1,000 concurrent users, ensuring a seamless gaming experience.',
+                line3: '',
+                gitlink:"",
+                gitlinksText:"",
+                gitlink2: "",
+                gitlinksText2 : "",
+                techstack: "HTML | CSS | JavaScript | Java Spring Boot | MongoDB" ,
+                livelink: "",
+                livelinktext: "",
+                demoVideoText: "",
+                demoVideoLink: "",
+                liveLinkLabel : '',
+                demoLabel : ' ',
+                demoClicker : ''
+            },
             {
                 image: websiteimg1,
                 title:'Voyage Planner : Travel Booking System',
@@ -43,23 +63,6 @@ function Projects() {
                 demoVideoText: "https://www.linkedin.com/posts/dev-hariharan-g_agriculturalinnovation-finalyearproject-tholan-activity-7218275881427902464-NDih?utm_source=share&utm_medium=member_desktop",
                 demoLabel : 'Demo Video : ',
                 demoClicker : 'Click here'
-            },
-            {
-                image: websiteimg3,
-                title:'My Portfolio Page',
-                line1:'- This portfolio page effectively showcases my projects and provides detailed information about me.',
-                line2: '- Additionally, I ensured seamless navigation and user-friendly interface to optimize the browsing experience.',
-                line3: '- It improving visitor engagement by 30% and reducing bounce rate.',
-                gitlink:"https://github.com/Hari-GS/myportfolio2",
-                gitlinksText:"https://github.com/Hari-GS/myportfolio2",
-                gitlink2: "",
-                gitlinksText2 : "",
-                techstack: "React js | Tailwind CSS" ,
-                livelink: "",
-                livelinktext: "",
-                liveLinkLabel : '',
-                demoLabel : '',
-                demoClicker : ''
             }
         ]
     }
@@ -73,37 +76,49 @@ function Projects() {
                 </div>
             </div>
             <div className='w-full'>
-                <div className='flex flex-col md:flex-row md:px-10 gap-5'>
-                    {config.projects.map((projects) => (
-                        <div className='relative bg-secondary rounded-2xl px-5 py-5 flex flex-col items-center w-full md:w-1/3 min-h-[600px]'>
-                                <img className='w-[500px]' src={projects.image}/>
-                                <div>
-                                    <h1 className="text-center text-xl font-bold py-5">{projects.title}</h1>
-                                        {/* <div className='flex justify-center'>
-                                            <a className='btn' target='_blank' href={projects.link}>View Project</a>
-                                        </div> */}
-                                    <p>{projects.line1}</p>
-                                    <br/>
-                                    <p>{projects.line2}</p>
-                                    <br/>
-                                    <p>{projects.line3}</p>
-                                    <br/>
-                                    <p className='font-bold'>Tech Stack :</p>
-                                    <p>{projects.techstack}</p>
-                                    <br/>
-                                    <p className='font-bold'>Git Repository :</p>
-                                    <a target='_blank' className='hover:text-amber-200' href={projects.gitlink}>{projects.gitlinksText}</a>
-                                    <br/>
-                                    <a target='_blank' className='hover:text-amber-200' href={projects.gitlink2}>{projects.gitlinksText2}</a>
-                                    <br/>
-                                    <br/>
-                                    <p className='font-bold'>{projects.demoLabel}<a className='hover:text-amber-200 font-normal' target='_blank'  href={projects.demoVideoLink}>{projects.demoClicker}</a></p>
-                                    <br/>
-                                    <p className='font-bold'>{projects.liveLinkLabel}<a className='hover:text-amber-200 font-normal' target='_blank' href={projects.livelink}>{projects.livelinktext}</a></p>
-                                </div>
-                        </div>
-                    ))} 
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-5 md:px-10">
+  {config.projects.map((projects) => (
+    <div className="relative bg-secondary rounded-2xl px-5 py-5 flex flex-col items-center w-full min-h-[600px]">
+      <img className="w-[500px]" src={projects.image} />
+      <div>
+        <h1 className="text-center text-xl font-bold py-5">{projects.title}</h1>
+        <p>{projects.line1}</p>
+        <br />
+        <p>{projects.line2}</p>
+        <br />
+        <p>{projects.line3}</p>
+        <br />
+        <p className="font-bold">Tech Stack :</p>
+        <p>{projects.techstack}</p>
+        <br />
+        <p className="font-bold">Git Repository :</p>
+        <a target="_blank" className="hover:text-amber-200" href={projects.gitlink}>
+          {projects.gitlinksText}
+        </a>
+        <br />
+        <a target="_blank" className="hover:text-amber-200" href={projects.gitlink2}>
+          {projects.gitlinksText2}
+        </a>
+        <br />
+        <br />
+        <p className="font-bold">
+          {projects.demoLabel}
+          <a className="hover:text-amber-200 font-normal" target="_blank" href={projects.demoVideoLink}>
+            {projects.demoClicker}
+          </a>
+        </p>
+        <br />
+        <p className="font-bold">
+          {projects.liveLinkLabel}
+          <a className="hover:text-amber-200 font-normal" target="_blank" href={projects.livelink}>
+            {projects.livelinktext}
+          </a>
+        </p>
+      </div>
+    </div>
+  ))}
+</div>
+
             </div>
         </section>
     )
