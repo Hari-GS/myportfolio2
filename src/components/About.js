@@ -3,9 +3,9 @@ import AboutImg from '../assets/Secondary-pic.jpg'
 
 function About() {
     const config={
-        line1:"I'm a recent B.E. graduate in Computer Science and Engineering with a strong foundation in Java Full Stack Development (Spring Boot, React) and experience in mobile app creation. Currently, I'm open to work while also building my own web development firm, Blue Hutch, as its Founder and Head of Operations.",
-        line2:'This side venture focuses on web development for Businesses and Individuals, and it has strengthened my leadership, project management, and technical skills. I’m passionate about applying my skills within a dynamic team environment, both in my day job and as an entrepreneur.',
-        line3:'I’m actively seeking a software engineering position where I can grow my career and contribute to impactful projects, while continuing to develop my company in parallel'
+        line1:"I'm a recent B.E. graduate in Computer Science and Engineering with a strong foundation in Java Full Stack Development (Spring Boot, React) and experience in mobile app creation. Currently, I'm open to work.",
+        line2:'I’m passionate about applying my skills within a dynamic team environment in my job',
+        line3:'I’m actively seeking a software engineering position where I can grow my career and contribute to impactful projects'
     }
 
     return (

@@ -29,7 +29,7 @@ function Projects() {
             },
             {
                 image: websiteimg1,
-                title:'Voyage Planner : Travel Booking System',
+                title:'Travel Booking System',
                 line1: '- Designed a tour travel Web App',
                 line2: '- Allows users to book tour trips conveniently, complete with a sign-in option for a personalized experience.',
                 line3: '- Integrated a robust booking engine, reducing booking time by 40% and enhancing user satisfaction. Optimized the application for scalability, handling up to 10,000 concurrent users.',
@@ -38,11 +38,11 @@ function Projects() {
                 gitlink2: "https://github.com/Hari-GS/tour-app-api.git",
                 gitlinksText2 : "https://github.com/Hari-GS/tour-app-api.git",
                 techstack: "React js | Java Springboot | MongoDB" ,
-                livelink: "https://seego-e-com.onrender.com",
-                livelinktext: "https://seego-e-com.onrender.com",
+                livelink: "",
+                livelinktext: "",
                 demoVideoText: "https://www.linkedin.com/posts/dev-hariharan-g_greetings-here-i-have-designed-a-tour-travel-activity-7172231123815612417-z3Vm?utm_source=share&utm_medium=member_desktop",
                 demoVideoLink: "https://www.linkedin.com/posts/dev-hariharan-g_greetings-here-i-have-designed-a-tour-travel-activity-7172231123815612417-z3Vm?utm_source=share&utm_medium=member_desktop",
-                liveLinkLabel : 'Live link :',
+                liveLinkLabel : '',
                 demoLabel : 'Demo Video : ',
                 demoClicker : 'Click here'
             },
@@ -63,25 +63,25 @@ function Projects() {
                 demoVideoText: "https://www.linkedin.com/posts/dev-hariharan-g_agriculturalinnovation-finalyearproject-tholan-activity-7218275881427902464-NDih?utm_source=share&utm_medium=member_desktop",
                 demoLabel : 'Demo Video : ',
                 demoClicker : 'Click here'
-            },
-            {
-                image: websiteimg3,
-                title:'My Agency Webpage',
-                line1:'- Designed and developed a responsive and visually engaging webpage for my web development agency, showcasing services, projects, and contact information.',
-                line2: '- Integrated user-friendly navigation and modern UI/UX principles to create an impactful online presence.',
-                line3: '- Built using React.js and Tailwind CSS, ensuring scalability and performance optimization',
-                gitlink:"https://github.com/Hari-GS/blue-hutch-notice",
-                gitlinksText:"https://github.com/Hari-GS/blue-hutch-notice",
-                gitlink2: "",
-                gitlinksText2 : "",
-                techstack: "React js | TailWind CSS",
-                livelink: "https://blue-hutch-notice.onrender.com/",
-                livelinktext: "https://blue-hutch-notice.onrender.com/",
-                demoVideoLink: "",
-                demoVideoText: "",
-                demoLabel : '',
-                demoClicker : ''
             }
+            // {
+            //     image: websiteimg3,
+            //     title:'My Agency Webpage',
+            //     line1:'- Designed and developed a responsive and visually engaging webpage for my web development agency, showcasing services, projects, and contact information.',
+            //     line2: '- Integrated user-friendly navigation and modern UI/UX principles to create an impactful online presence.',
+            //     line3: '- Built using React.js and Tailwind CSS, ensuring scalability and performance optimization',
+            //     gitlink:"https://github.com/Hari-GS/blue-hutch-notice",
+            //     gitlinksText:"https://github.com/Hari-GS/blue-hutch-notice",
+            //     gitlink2: "",
+            //     gitlinksText2 : "",
+            //     techstack: "React js | TailWind CSS",
+            //     livelink: "https://blue-hutch-notice.onrender.com/",
+            //     livelinktext: "https://blue-hutch-notice.onrender.com/",
+            //     demoVideoLink: "",
+            //     demoVideoText: "",
+            //     demoLabel : '',
+            //     demoClicker : ''
+            // }
         ]
     }
 
